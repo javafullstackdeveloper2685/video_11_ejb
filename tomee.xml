@@ -1,0 +1,10 @@
+<tomee>
+    <!-- JNDI Datenquelle -->
+    <Resource id="EmployeeDS" type="DataSource">
+        JdbcDriver  = com.mysql.cj.jdbc.Driver
+        JdbcUrl     = jdbc:mysql://deleteMe:3306/employees
+        UserName    = root
+        Password    = admin
+        JtaManaged  = true
+    </Resource>
+</tomee>
